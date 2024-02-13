@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trial</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+
+    nav {
+      background-color: black;
+      border-radius: 6px;
+    }
+
+    nav ul {
+      overflow: auto;
+    }
+
+    nav ul li {
+      list-style: none;
+      /*margin: 10px; */
+      padding: 13px;
+      float: left;
+
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Hire_now.html">Hire Now</a></li>
+    </ul>
+  </nav>
+
+  <center>
+    <h1>About</h1>
+  </center>
+</body>
+<div class="cart-btn-container">
+  <div class="cart-btn">
+<span class="fas fa-times"></span>
+<img src="c:\Users\Sony Vaio\Desktop\download.jpeg" alt="">
+<div class="contact">
+  <h3>cart-items 01</h3>
+  <div class="price">$15.99/-</div>
+</div>
+<div class="cart-btn-container">
+  <div class="cart-btn">
+<span class="fas fa-times"></span>
+<img src="https://5.imimg.com/data5/SELLER/Default/2023/3/293376413/EK/TZ/JV/55062170/roasted-coffee-beans-500x500.jpg" alt="">
+<div class="contact">
+  <h3>cart-items 02</h3>
+  <div class="price">$15.99/-</div>
+</div>
+<div class="cart-btn-container">
+  <div class="cart-btn">
+<span class="fas fa-times"></span>
+<img src="c:\Users\Sony Vaio\Desktop\download (1).jpeg" alt="">
+<div class="contact">
+  <h3>cart-items 03</h3> 
+  <div class="price">$15.99/-</div>
+</div>
+  </div>
+  <div class="cart-btn-container">
+      <div class="cart-btn">
+   <span class="fas fa-times"></span>
+   <img src="c:\Users\Sony Vaio\Desktop\download (2).jpeg" alt="">
+   <div class="contact">
+      <h3>cart-items 04</h3>
+      <div class="price">$15.99/-</div>
+</div>
+
+.header .cart-btn-container{
+  position: absolute;
+  top: 100%; right: 0;
+  height: calc(100vh - 9.5rem);
+  width: 35rem;
+  background: #fff;
+  padding: 0 1.5rem;
+  font-size: small;
+}
+
+.header .cart-btn-container .cart-btn{
+  position: relative;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header .cart-btn-container .cart-btn .fa-times{
+  position: absolute;
+  top: 1rem; right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.header .cart-btn-container .cart-btn .fa-times :hover{
+  color: var(--main-color);
+}
+
+.header .cart-btn-container .cart-btn .fa-times :hover img{
+  height: 5rem;
+}
+
+.header .cart-btn-container .cart-btn .fa-times :hover .contact h3{
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: .5rem;
+}
+
+.header .cart-btn-container .cart-btn .fa-times :hover .contact .price{
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
